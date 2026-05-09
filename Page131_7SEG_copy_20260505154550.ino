@@ -24,6 +24,7 @@ void Disp7seg(byte temp)
  for(short i=0;i<10;i++)  //重複執行10次
   {
   Disp7seg(table[i]);  //取出table中的顯示資料
-  delay(300);     //延遲0.3s
+  delay(500);     //延遲0.5s
   }
  }
+
