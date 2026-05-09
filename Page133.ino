@@ -36,7 +36,7 @@ Disp7seg(0); //減少鬼影
 Disp7seg(table[i%10]); // 取出欲顯示的個位數資料
 digitalWrite(17,HIGH); // 關閉十位數
 digitalWrite(16,LOW); // 打開個位數
-delay(3);
+delay(4);
 Disp7seg(0); //減少鬼影
 }
 }
